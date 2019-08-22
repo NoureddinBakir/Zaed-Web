@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zaed.io</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
-    <link rel="icon" href="../images/Timely-Logo-R.png">
-    <link rel="stylesheet" href="../dist/css/style.css">
+    <link rel="icon" href="./src/images/Timely-Logo-R.png">
+    <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
 
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/6.4.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 
 
 
@@ -23,7 +31,7 @@
                     <div class="brand header-brand">
                         <h1 class="m-0">
                             <a href="../index.html">
-								<img class="header-logo-image" src="../src/images/Zaed-Logo.png" alt="Zaed Logo" style="width:50pt;height:50pt">
+								<img class="header-logo-image" src="src/images/Zaed-Logo.png" alt="Logo" style="width:50pt;height:50pt">
                             </a>
                         </h1>
                     </div>
@@ -40,18 +48,18 @@
                 <div class="container-sm">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0" style="font-size: 70pt; color: rgb(0, 101, 255);">ZAED.IO</h1>
-	                        <h2 class="hero-title mt-0" style="color: rgb(250,250,250); margin-top: 30pt;">Who are we?</h2>
-	                        <p class="hero-paragraph" style="color: rgb(235,235,235);">I'm a University Student hungry, really hungry, to leave a positive mark on this world. I plan on making money to support future projects. I could care less about money tbh 😃.</p>
+	                        <h1 class="hero-title mt-0" style="font-size: 70pt; color: rgb(0, 101, 255);">ABOUT ZAED.IO</h1>
+                          <h2 class="hero-title mt-0" style="color: rgb(250,250,250);">Giving you more time, one tedious task at time</h2>
+	                        <p class="hero-paragraph" style="color: rgb(235,235,235);">Through identifying tedious tasks, those that no one benefits from, we provide solutions.</p>
 	                        <div class="hero-cta">
-								<a class="button button-primary button-wide-mobile" href="#">Download my Resume</a>
+								<a class="button button-primary button-wide-mobile" href="#">Stay updated & install our App</a>
 							</div>
 						</div>
 						<div class="mockup-container">
 							<div class="mockup-bg">
-								<img src="../dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
+								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
 							</div>
-							<img class="device-mockup" style="width:400pt;height:400pt;" src="../src/images/Profile-pic.jpg" alt="Profile Picture">
+							<img class="device-mockup" src="dist/images/iphone-hero.png" alt="iPhone Hero">
 						</div>
                     </div>
                 </div>
@@ -64,21 +72,21 @@
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="../dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
+										<img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="../dist/images/iphone-feature-01.png" alt="iPhone Feature 01">
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-01.png" alt="iPhone Feature 01">
 								</div>
 								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">I built this app with one thing in mind</h3>
-									<p class="m-0">With my first-year level CS knowledge I learned React Native/.JS and Javascript all by myself. Now this is average work, where I believe this project differentiates me is that I'm also learning business such as how to launch, maintain, and work in a startup. I’m passionate about solving this real problem, but my larger drive for this Zaed’s success is to build more projects. The world needs fixing, and I’ll make sure I do my part.</p>
+									<h3 class="mt-0 mb-16">In less than a minute, you no longer need to waste time on cleaning your car</h3>
+									<p class="m-0">Our simple and intuitive UI makes sure you no longer need to waste your time on maintaining your car withing a minute.</p>
 								</div>
 							</div>
-							<!-- <div class="feature-extended">
+							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="../dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
+										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="../dist/images/iphone-feature-02.png" alt="iPhone Feature 02">
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-02.png" alt="iPhone Feature 02">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">Security Equals Ease of Mind</h3>
@@ -88,21 +96,21 @@
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="../dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
+										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="../dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">We'll take over your car's care</h3>
 									<p class="m-0">We mean it! Our app will reschedule your appointments so you never have to open it again. Unless you want to cancel or reschedule an upcoming appointment, oh and once you download it too 😄.</p>
 								</div>
-							</div> -->
+							</div>
 							<!-- <div class="feature-extended">
 								<div class="feature-extended-image">
 									<div class="mockup-bg">
-										<img src="../dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
+										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
 									</div>
-									<img class="device-mockup is-revealing" src="../dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
+									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">Amazing features, coming soon.</h3>
@@ -123,7 +131,7 @@
 				<section class="cta section text-light">
 					<div class="container-sm">
 						<div class="cta-inner section-inner">
-							<div class="cta-header text-center">
+              <div class="cta-header text-center">
 								<h2 class="section-title mt-0" style="color: rgb(60, 60, 60);">Download and stay updated</h2>
 								<p class="section-paragraph">We'll add you to our newsletter and send you a link to our App's download links.</p>
 								<div class="cta-cta">
@@ -138,15 +146,19 @@
 				<div class="container">
 					<div class="site-footer-inner">
 						<div class="brand footer-brand">
-							<a href="../index.html">
-								<img src="../src/images/Zaed-Logo.png" alt="Zaed Logo" style="width:50pt;height:50pt">
+							<a href="#">
+								<img src="src/images/Zaed-Logo.png" alt="Zaed logo" style="width:50pt;height:50pt">
 							</a>
 						</div>
 						<ul class="footer-links list-reset">
 							<li>
 								<a href="mailto:contact@zaed.io?Subject=Contact%20Request">Contact</a>
 							</li>
+							<li>
+								<a href="./src/About.html">About us</a>
+							</li>
 						</ul>
+
 						<div class="footer-copyright">&copy; 2018 Zaed, all rights reserved</div>
 					</div>
 				</div>
@@ -154,6 +166,6 @@
         </footer>
     </div>
 
-    <script src="../dist/js/main.min.js"></script>
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
