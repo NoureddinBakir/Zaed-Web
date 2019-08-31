@@ -342,7 +342,7 @@ h5,.h5,h6,.h6{
 	color:rgb(0,0,0)
 }
 .text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6{
-	color:#fff
+	/* color:#fff */
 }
 .text-sm{
 	font-size:18px;
@@ -505,7 +505,7 @@ button,input,select,textarea,label{
 	color:#4234F8
 }
 .text-secondary{
-	color:#FF6C50
+	color:#rgb(15, 180, 254)
 }
 .has-top-divider{
 	position:relative
@@ -864,7 +864,7 @@ button,input,select,textarea,label{
 	transition:background .15s ease
 }
 .button-primary{
-	background:#4234F8
+	background:rgb(15, 180, 254)
 }
 .button-primary:hover{
 	background:#4b3ef8
@@ -882,7 +882,7 @@ button,input,select,textarea,label{
 	box-shadow:0 4px 16px rgba(66,52,248,0.32)
 }
 .button-secondary{
-	background:#FF6C50
+	background:#rgb(15, 180, 254)
 }
 .button-secondary:hover{
 	background:#ff795f
@@ -955,7 +955,7 @@ button,input,select,textarea,label{
 	bottom:42%;
 	left:0;
 	right:0;
-	background:rgb(15, 180, 254);
+	background:rgb(255, 255, 255);
 	z-index:-2
 }
 .hero .hero-particles-container{
@@ -1237,7 +1237,7 @@ button,input,select,textarea,label{
 		width:auto
 }
 	.feature-extended .feature-extended-image img.device-mockup,.feature-extended .feature-extended-image svg.device-mockup{
-		max-width:296px
+		max-width:296px;
 }
 	.feature-extended:nth-child(even){
 		justify-content:flex-start
