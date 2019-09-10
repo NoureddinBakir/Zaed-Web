@@ -249,7 +249,7 @@ body,button,input,select,textarea{
 	font-family:"Heebo", sans-serif
 }
 a{
-	color:#4234F8;
+	color:rgb(52, 153, 255);
 	text-decoration:none
 }
 a:hover,a:active{
@@ -479,7 +479,7 @@ button,input,select,textarea,label{
 	text-decoration:none;
 	text-transform:uppercase;
 	background-color:#fff;
-	color:#4234F8 !important;
+	color:rgb(52, 153, 255) !important;
 	border:none;
 	height:auto;
 	left:8px;
@@ -502,7 +502,7 @@ button,input,select,textarea,label{
 	text-align:right
 }
 .text-primary{
-	color:#4234F8
+	color:rgb(52, 153, 255)
 }
 .text-secondary{
 	color:#rgb(15, 180, 254)
@@ -534,7 +534,8 @@ button,input,select,textarea,label{
 	background:#E4E8EE
 }
 .m-0{
-	margin:0
+	margin:0;
+	text-align: justify;
 }
 .mt-0{
 	margin-top:0
@@ -573,7 +574,8 @@ button,input,select,textarea,label{
 	margin-right:16px
 }
 .mb-16{
-	margin-bottom:16px
+	margin-bottom:16px;
+	text-align: justify;
 }
 .ml-16{
 	margin-left:16px
@@ -816,7 +818,7 @@ button,input,select,textarea,label{
 	text-transform:uppercase;
 	background-color:#fff;
 	background:#fff;
-	color:#4234F8 !important;
+	color:rgb(52, 153, 255) !important;
 	border:none;
 	border-radius:2px;
 	cursor:pointer;
